@@ -11,7 +11,6 @@ export default function Layout({ content, title, keywords, description, children
         <div>
             <Head>
                 <title>{title}</title>
-                // SEO
                 <meta name={description} content={content} />
                 <meta keywords={keywords} />
             </Head>
